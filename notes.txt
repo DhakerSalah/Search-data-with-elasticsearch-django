@@ -1,0 +1,26 @@
+- Install elasticsearch in your computer
+- Run windows command file elasticsearch in downloaded folder/bin.
+
+test:
+http://localhost:9200/
+
+- Run your djnago project
+
+- http://localhost:9200/products/_search?pretty=true&size=200&sort=id:desc
+- http://localhost:9200/products/_doc/1
+- http://localhost:9200/products/_count
+
+- to migrate data into elasticsearch :
+python3 manage.py search_index --rebuild
+
+asgiref==3.3.1
+certifi==2020.12.5
+Django>=3.1.5,<3.2.0
+django-elasticsearch-dsl
+elasticsearch==7.10.1
+elasticsearch-dsl>=7.0.0,<8.0.0
+python-dateutil==2.8.1
+pytz==2020.5
+six==1.15.0
+sqlparse==0.4.1
+urllib3==1.26.2

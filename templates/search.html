@@ -1,0 +1,14 @@
+<fieldset>
+<legend>Search Product</legend>
+<form>
+    <input type='text' name='q' />
+    <input type='submit' value='Search' />
+</form>
+</fieldset>
+    <p>keyword searched  : <strong>{{ query }}</strong></p>
+    
+    <ul> 
+        {% for result in results %}
+        <li> <a href='{{ result.url }}'> {{ result.title }} </a> </li>
+        {% endfor %}
+    </ul>

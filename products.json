@@ -1,0 +1,42 @@
+[
+    {
+        "model": "productsApp.product",
+        "pk": 1,
+        "fields": {
+            "title": "Amazon Brand - Spotted Zebra Boys' Zip-Pocket Fleece Jogger Pants",
+            "description": "60% Cotton, 40% Polyester Imported Machine Wash Get ready to play in these soft french terry jogger pants with a fun zip pocket detail A covered elastic waistband keeps these pants secure for day-long comfort"
+        }
+    },
+    {
+        "model": "productsApp.product",
+        "pk": 3,
+        "fields": {
+            "title": "Simple Joys by Carter's Baby Girls' 7-Pack Teething Bibs",
+            "description": "100% Cotton Imported Machine Wash Pack of seven teething bibs in assorted colors with one-shoulder snap-button closure Three-layer lining with a waterproof barrier Trusted Carter’s quality, everyday low prices, and hassle-free packaging"
+        }
+    },
+    {
+        "model": "productsApp.product",
+        "pk": 4,
+        "fields": {
+            "title": "Sweat pants",
+            "description": "50% Cotton, 50% Polyester\nImported\nMachine Wash\n50 percent cotton/50 percent polyester fleece, with up to 5 percent made from recycled plastic bottles\nConvenient side seam pockets\nInside draw cord for secure fit\nOpen hem pant legs for a relaxed look\nMachine wash cold with like colors; non chlorine bleach when needed; tumble dry medium\n"
+        }
+    },
+    {
+        "model": "productsApp.product",
+        "pk": 5,
+        "fields": {
+            "title": "Red t shirt",
+            "description": "T shirt red for sportif"
+        }
+    },
+    {
+        "model": "productsApp.product",
+        "pk": 6,
+        "fields": {
+            "title": "White t shirt",
+            "description": "white tshirt for childrens"
+        }
+    }
+  ]
